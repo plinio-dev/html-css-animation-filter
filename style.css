@@ -64,14 +64,26 @@
 }
 /* /esercizio 5 */
 
-.ex-6-img:hover {
-  filter: grayscale(1);
-}
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
-
+/* /esercizio 6 */
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
+/* /esercizio 7 */
+.ex-7-img:hover {
+  transition: 1s ease-out;
+  filter: sepia(0.6);
+}
+/* /esercizio 8 */
+.ex-8-img:hover {
+  transition: 1s ease-out;
+  filter: sepia(0.6);
+  border-radius: 15px;
+}
+/* /esercizio 9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
